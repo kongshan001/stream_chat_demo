@@ -130,6 +130,8 @@ curl -N http://localhost:8003
 - 结束标记：`0\r\n\r\n`
 - 不需要提前知道Content-Length
 
+📖 **深度解析：** 查看 [doc/03-http-chunked详解.md](doc/03-http-chunked详解.md) 了解 http.server 底层原理和完整实现细节
+
 ### 第4步：SSE协议
 
 Server-Sent Events是专用于服务器推送的协议，ChatGPT等AI产品都使用SSE。

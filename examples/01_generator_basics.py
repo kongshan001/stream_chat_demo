@@ -24,6 +24,9 @@ def process_data_stream():
         yield f"{step} 完成\n"
 
 
+from time import sleep
+
+
 def simulate_ai_response():
     """模拟AI流式响应 - 最接近实际使用场景"""
     response = "这是一个模拟的AI回答，我会一个字一个字地输出给你。"
