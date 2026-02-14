@@ -125,7 +125,10 @@ if __name__ == "__main__":
         print("  python 05_openai_stream.py --thinking  # 带思考过程")
         print()
 
-        choice = input("选择模式 [1:需要API / 2:模拟模式] (默认2): ").strip()
+        try:
+            choice = input("选择模式 [1:需要API / 2:模拟模式] (默认2): ").strip()
+        except EOFError:
+            choice = "2"
 
         if choice == "1":
             stream_chat_completion()
