@@ -97,6 +97,8 @@ python examples/01_generator_basics.py
 - 可以表示无限序列
 - 通过`for`循环逐个获取值
 
+📖 **深度解析：** 查看 [doc/01-生成器详解.md](doc/01-生成器详解.md) 了解生成器底层原理和高级用法
+
 ### 第2步：异步生成器
 
 异步生成器结合了生成器和异步编程，适合I/O密集型场景。
@@ -111,6 +113,8 @@ python examples/02_async_generator.py
 - `async for` 消费异步生成器
 - 适合网络请求、文件读写等I/O操作
 - 不会阻塞其他任务执行
+
+📖 **深度解析：** 查看 [doc/02-异步生成器详解.md](doc/02-异步生成器详解.md) 了解async/await原理和事件循环机制
 
 ### 第3步：HTTP分块传输编码
 
@@ -178,6 +182,8 @@ python examples/05_openai_stream.py
 - `chunk.choices[0].delta.content` 获取文本
 - 实时渲染到界面
 
+📖 **深度解析：** 查看 [doc/05-openai流式API详解.md](doc/05-openai流式API详解.md) 了解OpenAI SDK工作原理和最佳实践
+
 ### 第6步：完整聊天应用
 
 整合所有技术，构建完整的AI聊天应用。
@@ -195,6 +201,8 @@ python examples/06_complete_chat.py
 - 逐字流式输出
 - 思考过程可视化
 - 现代化UI界面
+
+📖 **深度解析：** 查看 [doc/06-完整聊天应用详解.md](doc/06-完整聊天应用详解.md) 了解完整架构和前后端交互
 
 ## 常见问题
 
