@@ -155,6 +155,8 @@ curl -N http://localhost:8004
 - 保持长连接
 - 浏览器原生支持
 
+📖 **深度解析：** 查看 [doc/04-sse协议详解.md](doc/04-sse协议详解.md) 了解 SSE 协议规范和实现细节
+
 ### 第5步：OpenAI流式API
 
 真实场景中的AI流式输出实现。
